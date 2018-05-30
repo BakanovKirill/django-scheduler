@@ -4,7 +4,7 @@ import dateutil.parser
 from django.utils.six.moves.urllib.parse import quote
 
 from django.db.models import Q, F
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
